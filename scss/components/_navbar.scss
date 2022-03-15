@@ -1,0 +1,101 @@
+.navbar-wrapper {
+  background-color: $dark-background-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    background-color: transparent;
+  }
+  .navbar {
+    max-width: 1322px;
+    margin: 0 auto;
+    color: $light-text-color;
+    padding: 23px 35px;
+
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 19px;
+      padding-bottom: 20px;
+    }
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .navbar__logo {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+      }
+      @media (min-width: 768px) {
+        .navbar__menu-btn {
+          display: none;
+        }
+      }
+    }
+    ul.navbar__links.active {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+    }
+    ul.navbar__links {
+      margin: 83px 0 98px;
+      display: none;
+      text-align: center;
+      @media (min-width: 768px) {
+        display: flex;
+        margin: 0;
+        align-items: center;
+        gap: 21px;
+      }
+      li {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        letter-spacing: 0.2px;
+        margin-bottom: 30px;
+        @media (min-width: 768px) {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 24px;
+          margin: 0;
+        }
+      }
+    }
+  }
+  div.navbar__buttons {
+    display: none;
+    a {
+      color: $white;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      margin-right: 45px;
+      text-decoration: none;
+    }
+    button {
+      color: $white;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      background-color: $primary;
+      border-radius: 5px;
+      border: none;
+      padding: 15px 25px;
+    }
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+}

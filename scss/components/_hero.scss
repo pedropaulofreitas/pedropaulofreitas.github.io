@@ -61,6 +61,9 @@
     @media (min-width: 769px) {
       margin: 35px auto 0;
     }
+    button {
+      cursor: pointer;
+    }
     button:first-child {
       height: 42px;
       color: $white;

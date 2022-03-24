@@ -1,206 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
 
-  <body>
-    <!-- Navbar -->
-    <div class="navbar-wrapper">
-      <nav class="navbar">
-        <div class="navbar__header">
-          <div class="navbar__logo">BrandName</div>
-          <div class="navbar__menu-btn" id="navbar-btn">X</div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <div class="navbar__header">
+        <div class="navbar__logo">BrandName</div>
+        <div class="navbar__menu-btn" id="navbar-btn">X</div>
+      </div>
+      <ul class="navbar__links" id="navbar-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navbar__buttons">
+        <a href="#">Login</a>
+        <button>
+          Become a member
+          <i><img src="./assets/right-arrow.svg" alt="Arrow" /></i>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__content">
+        <h1>We Ensure A Best Insurance Service</h1>
+        <h2>
+          We know how large objects will act, but things on a small scale.
+        </h2>
+        <div class="hero__buttons">
+          <button>Get Quote Now</button>
+          <button>Learn More</button>
         </div>
-        <ul class="navbar__links" id="navbar-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#product">Product</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="navbar__buttons">
-          <a href="#">Login</a>
-          <button>
-            Become a member
-            <i><img src="./assets/right-arrow.svg" alt="Arrow" /></i>
-          </button>
-        </div>
-      </nav>
+      </div>
     </div>
+  </section>
 
-    <!-- Hero -->
-    <section class="hero" id="home">
-      <div class="container">
-        <div class="hero__content">
-          <h1>We Ensure A Best Insurance Service</h1>
-          <h2>
-            We know how large objects will act, but things on a small scale.
-          </h2>
-          <div class="hero__buttons">
-            <button>Get Quote Now</button>
-            <button>Learn More</button>
-          </div>
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features__grid">
+        <div class="features__card">
+          <figure>
+            <img src="./assets/grid-vector1.svg" alt="" />
+          </figure>
+          <h5>Peace of Mind</h5>
+          <p>So it really behaves like neither. Now we have given up.</p>
+        </div>
+        <div class="features__card">
+          <figure>
+            <img src="./assets/grid-vector2.svg" alt="" />
+          </figure>
+          <h5>Set For Life</h5>
+          <p>They were used to create the machines that launched</p>
+        </div>
+        <div class="features__card">
+          <figure>
+            <img src="./assets/grid-vector3.svg" alt="" />
+          </figure>
+          <h5>100% Satisfaction</h5>
+          <p>So it really behaves like neither. Now we have given up.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Features -->
-    <section class="features">
-      <div class="container">
-        <div class="features__grid">
-          <div class="features__card">
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Industry</h2>
+      <p>
+        Problems trying to resolve the conflict between the two major realms
+        of Classical physics: Newtonian mechanics
+      </p>
+      <div class="testimonial__cards">
+        <!-- Testimonal Card -->
+        <div class="testimonial__card">
+          <div class="testimonial__avatar">
             <figure>
-              <img src="./assets/grid-vector1.svg" alt="" />
+              <img src="./assets/testimonial-avatar1.png" alt="Testimonal image" />
             </figure>
-            <h5>Peace of Mind</h5>
-            <p>So it really behaves like neither. Now we have given up.</p>
           </div>
-          <div class="features__card">
+          <h3>Regina Miles</h3>
+          <h6>Design</h6>
+          <div class="stars">
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector-alt.svg" alt="" />
+          </div>
+          <p>
+            This proved to be impossible using the traditional concepts of
+            space and time. Einstein developed a new view of time first and
+            then space. This proved to be impossible using the traditional
+            concepts of space and time. Einstein developed a new view of time
+            first and then space.
+          </p>
+        </div>
+
+        <div class="testimonial__card">
+          <div class="testimonial__avatar">
             <figure>
-              <img src="./assets/grid-vector2.svg" alt="" />
+              <img src="./assets/testimonial-avatar2.png" alt="Testimonal image" />
             </figure>
-            <h5>Set For Life</h5>
-            <p>They were used to create the machines that launched</p>
           </div>
-          <div class="features__card">
-            <figure>
-              <img src="./assets/grid-vector3.svg" alt="" />
-            </figure>
-            <h5>100% Satisfaction</h5>
-            <p>So it really behaves like neither. Now we have given up.</p>
+          <h3>Regina Miles</h3>
+          <h6>Design</h6>
+          <div class="stars">
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector.svg" alt="" />
+            <img src="./assets/star-vector-alt.svg" alt="" />
+          </div>
+          <p>
+            This proved to be impossible using the traditional concepts of
+            space and time. Einstein developed a new view of time first and
+            then space. This proved to be impossible using the traditional
+            concepts of space and time. Einstein developed a new view of time
+            first and then space.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="content" id="content">
+    <div class="container">
+      <h2>Industry</h2>
+      <p>
+        Problems trying to resolve the conflict between the two major realms
+        of Classical physics: Newtonian mechanics
+      </p>
+      <div class="content__cards">
+        <div class="content__card">
+          <div class="content__card__img">
+            <img src="assets/content-card-1.png" alt="" />
+          </div>
+          <div class="content__card__body">
+            <h6>Tax Management</h6>
+            <h3>Life Tips From Top Ten Adventure Travelers</h3>
+            <button>View Project</button>
+          </div>
+        </div>
+        <div class="content__card">
+          <div class="content__card__img">
+            <img src="assets/content-card-2.png" alt="" />
+          </div>
+          <div class="content__card__body">
+            <h6>Tax Management</h6>
+            <h3>Life Tips From Top Ten Adventure Travelers</h3>
+            <button>View Project</button>
+          </div>
+        </div>
+        <div class="content__card">
+          <div class="content__card__img">
+            <img src="assets/content-card-3.png" alt="" />
+          </div>
+          <div class="content__card__body">
+            <h6>Tax Management</h6>
+            <h3>Life Tips From Top Ten Adventure Travelers</h3>
+            <button>View Project</button>
+          </div>
+        </div>
+        <div class="content__card">
+          <div class="content__card__img">
+            <img src="assets/content-card-4.png" alt="" />
+          </div>
+          <div class="content__card__body">
+            <h6>Tax Management</h6>
+            <h3>Life Tips From Top Ten Adventure Travelers</h3>
+            <button>View Project</button>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
-      <div class="container">
-        <h2>Industry</h2>
-        <p>
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
-        </p>
-        <div class="testimonial__cards">
-          <!-- Testimonal Card -->
-          <div class="testimonial__card">
-            <div class="testimonial__avatar">
-              <figure>
-                <img
-                  src="./assets/testimonial-avatar1.png"
-                  alt="Testimonal image"
-                />
-              </figure>
-            </div>
-            <h3>Regina Miles</h3>
-            <h6>Design</h6>
-            <div class="stars">
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector-alt.svg" alt="" />
-            </div>
-            <p>
-              This proved to be impossible using the traditional concepts of
-              space and time. Einstein developed a new view of time first and
-              then space. This proved to be impossible using the traditional
-              concepts of space and time. Einstein developed a new view of time
-              first and then space.
-            </p>
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <p>
+        Problems trying to resolve the conflict between the two major realms
+        of Classical physics: Newtonian mechanics
+      </p>
+      <div class="pricing__cards">
+
+        <!-- card -->
+        <div class="pricing__card">
+          <h3>Free</h3>
+          <h5>Organize across all apps by hand</h5>
+          <div class="pricing__card__price-desktop">
+            <h2>0$</h2>
+            <h5>Per Month</h5>
+            <button>Try for free</button>
+            <ul>
+              <li>
+                <i><img src="assets/check-icon.svg" alt="" /></i> Unlimited
+                product updates
+              </li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>1GB Cloud Storage</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Email and community support</li>
+            </ul>
           </div>
-
-          <div class="testimonial__card">
-            <div class="testimonial__avatar">
-              <figure>
-                <img
-                  src="./assets/testimonial-avatar2.png"
-                  alt="Testimonal image"
-                />
-              </figure>
+          <div class="pricing__card__price-mobile">
+            <div>
+              <h2>0</h2>
+              <h5>Per Month </h5>
             </div>
-            <h3>Regina Miles</h3>
-            <h6>Design</h6>
-            <div class="stars">
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector.svg" alt="" />
-              <img src="./assets/star-vector-alt.svg" alt="" />
-            </div>
-            <p>
-              This proved to be impossible using the traditional concepts of
-              space and time. Einstein developed a new view of time first and
-              then space. This proved to be impossible using the traditional
-              concepts of space and time. Einstein developed a new view of time
-              first and then space.
-            </p>
+            <ul>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>1GB Cloud Storage</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Email and community support</li>
+            </ul>
+            <button>Try for free</button>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Content -->
-    <section class="content">
-      <div class="container">
-        <h2>Industry</h2>
-        <p>
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
-        </p>
-        <div class="content__cards">
-          <div class="content__card">
-            <div class="content__card__img">
-              <img src="assets/content-card-1.png" alt="" />
-            </div>
-            <div class="content__card__body">
-              <h6>Tax Management</h6>
-              <h3>Life Tips From Top Ten Adventure Travelers</h3>
-              <button>View Project</button>
-            </div>
+        <div class="pricing__card">
+          <h3>Free</h3>
+          <h5>Organize across all apps by hand</h5>
+          <div class="pricing__card__price-desktop">
+            <h2>0$</h2>
+            <h5>Per Month</h5>
+            <button>Try for free</button>
+            <ul>
+              <li>
+                <i><img src="assets/check-icon.svg" alt="" /></i> Unlimited
+                product updates
+              </li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>1GB Cloud Storage</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Email and community support</li>
+            </ul>
           </div>
-          <div class="content__card">
-            <div class="content__card__img">
-              <img src="assets/content-card-2.png" alt="" />
+          <div class="pricing__card__price-mobile">
+            <div>
+              <h2>0</h2>
+              <h5>Per Month </h5>
             </div>
-            <div class="content__card__body">
-              <h6>Tax Management</h6>
-              <h3>Life Tips From Top Ten Adventure Travelers</h3>
-              <button>View Project</button>
-            </div>
-          </div>
-          <div class="content__card">
-            <div class="content__card__img">
-              <img src="assets/content-card-3.png" alt="" />
-            </div>
-            <div class="content__card__body">
-              <h6>Tax Management</h6>
-              <h3>Life Tips From Top Ten Adventure Travelers</h3>
-              <button>View Project</button>
-            </div>
-          </div>
-          <div class="content__card">
-            <div class="content__card__img">
-              <img src="assets/content-card-4.png" alt="" />
-            </div>
-            <div class="content__card__body">
-              <h6>Tax Management</h6>
-              <h3>Life Tips From Top Ten Adventure Travelers</h3>
-              <button>View Project</button>
-            </div>
+            <ul>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>1GB Cloud Storage</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Email and community support</li>
+            </ul>
+            <button>Try for free</button>
           </div>
         </div>
+
+        <div class="pricing__card">
+          <h3>Free</h3>
+          <h5>Organize across all apps by hand</h5>
+          <div class="pricing__card__price-desktop">
+            <h2>0$</h2>
+            <h5>Per Month</h5>
+            <button>Try for free</button>
+            <ul>
+              <li>
+                <i><img src="assets/check-icon.svg" alt="" /></i> Unlimited
+                product updates
+              </li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>1GB Cloud Storage</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Email and community support</li>
+            </ul>
+          </div>
+          <div class="pricing__card__price-mobile">
+            <div>
+              <h2>0</h2>
+              <h5>Per Month </h5>
+            </div>
+            <ul>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Unlimited product updates</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>1GB Cloud Storage</li>
+              <li><i><img src="assets/check-icon.svg" alt="" /></i>Email and community support</li>
+            </ul>
+            <button>Try for free</button>
+          </div>
+        </div>
+        <!--  -->
+
       </div>
-    </section>
-    <script type="module" src="/main.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- scripts -->
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

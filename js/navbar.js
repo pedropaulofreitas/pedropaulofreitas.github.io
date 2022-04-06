@@ -7,8 +7,11 @@ export default class Navbar {
   navbarToggle() {
     const navbarBtn = document.getElementById("navbar-btn");
     const navbarLinks = document.getElementById("navbar-links");
+    const hamburger = document.getElementById("hamburger");
+
     navbarBtn.addEventListener("click", () => {
       navbarLinks.classList.toggle("active");
+      hamburger.classList.toggle("hamburger-open");
     });
   }
   navbarScrolling() {

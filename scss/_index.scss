@@ -14,4 +14,8 @@ html {
 body {
   background-color: $dark-background-color;
   /*navbar height*/
+  .element-animate {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

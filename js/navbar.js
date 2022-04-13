@@ -1,6 +1,6 @@
 export default class Navbar {
   constructor() {}
-  navbarOn() {
+  boot() {
     this.navbarToggle();
     this.navbarScrolling();
   }

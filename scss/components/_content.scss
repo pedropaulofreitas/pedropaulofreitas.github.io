@@ -53,13 +53,13 @@
           background-image: url("assets/content-card-1.webp");
         }
         &:nth-child(2) {
-          background-image: url("assets/content-card-2.webp");
+          background-image: url("../assets/content-card-2.webp");
         }
         &:nth-child(3) {
-          background-image: url("assets/content-card-3.webp");
+          background-image: url("../assets/content-card-3.webp");
         }
         &:last-of-type {
-          background-image: url("assets/content-card-4.webp");
+          background-image: url("../assets/content-card-4.webp");
         }
         &__img {
           width: 100%;

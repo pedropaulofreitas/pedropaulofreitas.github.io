@@ -7,7 +7,6 @@
   // padding: 160px 50px 7px;
   color: $white;
   text-align: center;
-  background-image: url("../assets/hero-background.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +16,8 @@
   }
 
   .hero__content {
+    background-color: $secondary-1;
+    border-bottom: 10px;
     padding: 80px 50px 7px;
     @media (min-width: 768px) {
       padding: 125px 50px;
@@ -26,6 +27,7 @@
     }
   }
   h1 {
+    color: $primary;
     margin-bottom: 40px;
     font-family: "Montserrat";
     font-style: normal;
@@ -114,5 +116,18 @@
         height: 52px;
       }
     }
+  }
+  
+  .orange {
+    min-width: 300px;
+    right: 10%;
+    top: 30%;
+    position: absolute;   
+    
+    @media (max-width: 1000px) {
+      padding: 15px 36px;
+      height: 100px;
+      visibility: hidden;
+    } 
   }
 }

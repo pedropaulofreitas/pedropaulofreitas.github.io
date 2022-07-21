@@ -1,5 +1,5 @@
 .features {
-  color: $light-text-color;
+  color: $text-color;
   padding: 80px 0;
   @media (min-width: 768px) {
     padding: 96px 0;
@@ -27,7 +27,7 @@
         line-height: 24px;
         text-align: center;
         letter-spacing: 0.1px;
-        color: $light-text-color;
+        color: $text-color;
         margin-top: 30px;
       }
       p:last-of-type {
@@ -39,7 +39,7 @@
         line-height: 20px;
         text-align: center;
         letter-spacing: 0.2px;
-        color: $light-text-color;
+        color: $text-color;
         margin-top: 10px;
       }
     }

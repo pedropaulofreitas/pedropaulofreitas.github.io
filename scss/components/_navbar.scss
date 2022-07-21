@@ -1,6 +1,6 @@
 .navbar-wrapper {
   z-index: 99;
-  background-color: $dark-background-color;
+  background-color: $secondary-1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,7 +9,7 @@
   @media (min-width: 768px) {
     background-color: transparent;
     &.scrolling {
-      background-color: $dark-background-color;
+      background-color: $secondary-1;
       .navbar {
         padding-top: 8px;
         padding-bottom: 8px;
